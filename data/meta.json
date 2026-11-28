@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "fetched_at": "2026-11-28T10:27:26+09:00",
+  "sample": false,
+  "sha256": "c60f83f55fcb222bd2e9fc08f19a26db0c387b23aa2c536fdb902869602e293f",
+  "bytes": 2542334,
+  "counts": {
+    "pharmacies": 25110,
+    "stores": 39183,
+    "er": 530
+  },
+  "report": {
+    "nmc_total": 25434,
+    "dropped_bad_coord": 0,
+    "dropped_no_hours": 80,
+    "dropped_duplicate": 0,
+    "merged_same_place": 58,
+    "removed_closed": 186,
+    "closed_suspect": 39,
+    "paused": 1,
+    "hira_confirmed": 24503,
+    "hira_conflict": 356,
+    "hira_unmatched": 251,
+    "night_matched": 93,
+    "night_unmatched": 5,
+    "duty_matched": 17,
+    "duty_unmatched": 3,
+    "hours_conflict": 26,
+    "holiday_blank": 18806,
+    "no_phone": 219,
+    "grades": {
+      "1": 93,
+      "2": 24388,
+      "3": 629
+    },
+    "stores": 39183,
+    "er": 530,
+    "holidays": 46,
+    "hira_rows": 25872,
+    "localdata_rows": 70842,
+    "holiday_blank_ratio": 0.7489
+  }
+}
